@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Minecrafter';
+    src: url('../fonts/Minecrafter.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Minecraft';
+    src: url('../fonts/Minecraft.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Minecraft Evenings';
+    src: url('../fonts/Minecraft\ Evenings.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.staff-miembros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    perspective: 1000px;
+}
+
+.staff-tarjeta {
+    width: 20vw;
+    height: 30vw;
+    position: relative;
+    perspective: 1000px;
+}
+
+.staff-contenido {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+.staff-tarjeta:hover .staff-contenido {
+    transform: rotateY(180deg);
+}
+
+.staff-front, .staff-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.staff-front {
+    background-color: #ffffff;
+}
+
+.staff-front img {
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.staff-front h3 {
+    font-size: 1.5vw;
+    color: #4a4a4a;
+    margin: 5px 0;
+}
+
+.staff-front .rol {
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+.admin .rol {color: rgb(201, 110, 204)}
+.admin .staff-back {background-color: rgb(201, 110, 204)}
+.smod .rol {color: rgb(53, 216, 216)}
+.smod .staff-back {background-color: rgb(53, 216, 216)}
+.mod .rol {color: rgb(214, 38, 38)}
+.mod .staff-back {background-color: rgb(214, 38, 38)}
+.helper .rol {color: rgb(68, 168, 77)}
+.helper .staff-back {background-color: rgb(68, 168, 77)}
+
+.staff-back {
+    color: #ffffff;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.staff-back .descripcion {
+    text-align: center;
+    font-size: 1.2vw;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+.staff-back i {
+    color: white;
+    border-radius: 50%;
+    transition: .5s ease;
+    padding: 5px;
+    font-size: 1.8vw;
+}
+
+.staff-back i:hover {
+    transform: scale(1.2);
+    background-color: rgba(145, 145, 145, 0.3);
+}

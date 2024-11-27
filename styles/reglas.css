@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Minecrafter';
+    src: url('../fonts/Minecrafter.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Minecraft';
+    src: url('../fonts/Minecraft.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Minecraft Evenings';
+    src: url('../fonts/Minecraft\ Evenings.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.regla-categoria {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.regla-categoria:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.regla-categoria h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.general h3 {
+    color: #2ecc71;
+    transition: color .5s ease;
+}
+
+.towny h3 {
+    color: #ffa250;
+    transition: color .5s ease;
+}
+
+.factions h3 {
+    color: #e74c3c;
+    transition: color .5s ease;
+}
+
+.skyblock h3 {
+    color: #3498db;
+    transition: color .5s ease;
+}
+
+.sanciones h3 {
+    color: #813088;
+    transition: color .5s ease;
+}
+
+.general:hover h3 {
+    text-decoration: underline;
+    color: #1e864a;
+}
+
+.towny:hover h3 {
+    text-decoration: underline;
+    color: #f58320;
+}
+
+.factions:hover h3 {
+    text-decoration: underline;
+    color: #df3421;
+}
+
+.skyblock:hover h3 {
+    text-decoration: underline;
+    color: #1b77b4;
+}
+
+.sanciones:hover h3 {
+    text-decoration: underline;
+    color: #451a49;
+}
+
+.regla-categoria li {
+    line-height: 3;
+    color: #666;
+    font-size: 16px;
+    font-family: "Minecraft", sans-serif;
+}

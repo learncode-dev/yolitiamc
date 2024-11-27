@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yolitia MC - Reglas</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/reglas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i>&nbsp;&nbsp;Inicio</a></li>
+            <li class="active"><a href="reglas.html"><i class="fas fa-info-circle"></i>&nbsp;&nbsp;Reglas</a></li>
+            <li><a href="staff.html"><i class="fas fa-star"></i>&nbsp;&nbsp;Staff</a></li>
+            <li><a href="https://www.40servidoresmc.es/" target="_blank"><i class="fas fa-check"></i>&nbsp;&nbsp;Votar</a></li>
+            <li><a href="tienda.html"><i class="fas fa-shopping-cart"></i>&nbsp;&nbsp;Tienda</a></li>
+        </ul>
+    </nav>
+    <header>
+        <img src="img/logo.png">
+        <br><br><br>
+        <button class="button-ip" onclick="copiarTexto()">Jugar</button>
+    </header>
+    <main>
+        <section id="reglas">
+            <h1>Reglas del Servidor</h1>
+            <br><br><br>
+            <div class="regla-categoria general">
+                <h3>Reglas Generales</h3>
+                <br>
+                <ol>
+                    <li>Es obligatorio leer y comprender todas las reglas antes de jugar. <span class="minecraft subrayado">La ignorancia de las normas no exime de las sanciones</span>. Si no te has leido las reglas, <span class="minecraft subrayado">puedes ser sancionado igualmente</span>.</li>
+                    <li>Esta <span class="cuadrado rojo">prohibido</span> el uso de hacks, mods no autorizados o clientes personalizados que brinden ventajas injustas.</li>
+                    <li><span class="cuadrado rojo">Prohibido</span> el spam, la publicidad de otros servidores ni el uso de lenguaje ofensivo.</li>
+                    <li><span class="cuadrado morado">Respeta</span> a todos los jugadores y al equipo del staff. Cualquier falta de respeto sera sancionada.</li>
+                    <li><span class="cuadrado amarillo">No abuses</span> de bugs o glitches. Si encuentras alguno, reportalo al staff de inmediato.</li>
+                    <li>Queda <span class="cuadrado rojo">prohibido</span> el uso de multiples cuentas para obtener ventajas en el juego.</li>
+                </ol>
+            </div>
+            <br><br>
+            <hr>
+            <br><br>
+            <div class="regla-categoria towny">
+                <h3>Reglas de Towny</h3>
+                <br>
+                <ol>
+                    <li>Esta <span class="cuadrado rojo">prohibido</span> el griefing (destruccion de construcciones) en terrenos reclamados por otras ciudades o jugadores.</li>
+                    <li>El PvP <span class="cuadrado amarillo">solo esta permitido</span> en areas designadas o en ciudades que lo habiliten.</li>
+                    <li><span class="cuadrado rojo">No esta permitido</span> robar o destruir cofres o pertenencias de otros jugadores en areas protegidas.</li>
+                    <li><span class="cuadrado morado">Respeta</span> los limites de otras ciudades y no construyas demasiado cerca sin permiso.</li>
+                    <li>El uso de granjas automaticas debe ser <span class="cuadrado amarillo">moderado</span> para evitar el lag en el servidor.</li>
+                </ol>
+            </div>
+            <br><br>
+            <hr>
+            <br><br>
+            <div class="regla-categoria factions">
+                <h3>Reglas de Factions</h3>
+                <br>
+                <ol>
+                    <li>El PvP <span class="cuadrado verde">esta permitido</span> en todas las areas fuera de las zonas de proteccion y en territorio enemigo.</li>
+                    <li>El griefing <span class="cuadrado verde">esta permitido</span> en el contexto de guerra entre facciones, pero el uso de exploits o bugs no.</li>
+                    <li><span class="cuadrado rojo">No se permite</span> abusar de mecanicas como volar en combate o desconectarse para evitar ser atacado.</li>
+                    <li><span class="cuadrado rojo">No se permiten</span> trampas de muerte en zonas neutrales o en los limites de proteccion.</li>
+                    <li>Los aliados deben ser <span class="cuadrado morado">respetados</span>; traicionar facciones aliadas sin previo aviso esta mal visto y puede llevar a sanciones.</li>
+                </ol>
+            </div>
+            <br><br>
+            <hr>
+            <br><br>
+            <div class="regla-categoria skyblock">
+                <h3>Reglas de Skyblock</h3>
+                <br>
+                <ol>
+                    <li>Esta <span class="cuadrado rojo">prohibido</span> destruir las islas de otros jugadores o hacer TP-kill (teletransportarse para matar).</li>
+                    <li><span class="cuadrado rojo">No se permite</span> robar o tomar recursos de islas de otros jugadores sin permiso.</li>
+                    <li><span class="cuadrado amarillo">No abuses</span> de granjas automaticas que generen un exceso de lag.</li>
+                    <li>Esta <span class="cuadrado rojo">absolutamente prohibido</span> glitches para generar items de manera ilicita (ej. duplicacion de bloques).</li>
+                    <li>Las islas deben mantenerse dentro de los limites establecidos por el servidor para evitar conflictos con otras islas.</li>
+                </ol>
+            </div>
+        </section>
+
+        <br><br>
+        <hr>
+        <br><br>
+
+        <section id="sanciones">
+            <div class="regla-categoria sanciones">
+                <h3>Sanciones</h3>
+                <br>
+                <ol>
+                    <li>Las sanciones por incumplimiento de las normas pueden ser:
+                        <ul>
+                            <li><span class="cuadrado naranja">Warning</span></li>
+                            <li><span class="cuadrado azul-claro">Mute temporal</span></li>
+                            <li><span class="cuadrado azul">Mute permanente</span></li>
+                            <li><span class="cuadrado rojo-claro">Baneo temporal</span></li>
+                            <li><span class="cuadrado rojo">Baneo permanente</span></li>
+                            <li><span class="cuadrado morado">Baneo permanente de IP</span></li>
+                        </ul>
+                    </li>
+                    <li>El miembro del staff tiene la autoridad para imponer el <span class="minecraft subrayado">tipo</span> y la <span class="minecraft subrayado">cuantia</span> de la sancion que considere conveniente, en funcion de la gravedad de la infraccion.</li>
+                    <li>Las sanciones <span class="minecraft subrayado">podran ser apeladas</span> a traves de nuestro servidor de Discord, siempre y cuando <span class="minecraft subrayado">no haya sido apelada con anterioridad</span>.</li>
+                </ol>
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <section id="social">
+            <ul>
+                <li><a href="mailto:info@learncode.es"><i class="fa-solid fa-envelope"></i></a></li>
+                <li><a href="https://discord.gg/" target="_blank"><i class="fa-brands fa-discord"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+                <li><a href="https://x.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://github.com/learncode-dev/" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </section>
+        
+        <section id="copyright">
+            <pre>&copy; 2024 - LearnCode. Todos los derechos reservados.</pre>
+        </section>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
