@@ -76,6 +76,7 @@ header {
     justify-content: center;
     text-align: center;
     color: white;
+    margin-bottom: 25px;
 }
 
 @keyframes logo {
@@ -85,7 +86,7 @@ header {
 }
 
 header img {
-    height: 75%;
+    max-height: 75%;
     animation: logo 4s ease-in-out infinite;
 }
 
@@ -273,10 +274,11 @@ footer img:hover {
     justify-content: center;
     align-items: flex-end;
     color: white;
+    font-size: 1.2vw;
 }
 
 /* Media */
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 768px) {
     /* Nav */
     nav {position: relative}
 
@@ -297,6 +299,9 @@ footer img:hover {
     }
     
     /* Header */
+    header img {
+        max-width: 90%;
+    }
     .button-ip {
         width: 300px;
         height: 60px;
@@ -317,18 +322,7 @@ footer img:hover {
     .col3 {width: 100%}
     main img:hover {transform: none}
 
-    /* Tarjetas - Top jugadores y Staff */
-    .top-jugadores-tarjeta, .staff-tarjeta {
-        width: 100%;
-        height: 650px;
+    #copyright {
+        font-size: 10px;
     }
-
-    .top-jugadores-front img, .staff-front img {
-        width: 50%;
-        height: auto;
-    }
-
-    .top-jugadores-front h3, .staff-front h3 {font-size: 30px}
-    .staff-front .rol, .staff-back .descripcion, .staff-back i {font-size: 25px}
-    .top-jugadores-front .rol, .top-jugadores-back .top-jugadores-descripcion, .top-jugadores-back i {font-size: 25px}
 }

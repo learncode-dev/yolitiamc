@@ -120,3 +120,35 @@
     transform: scale(1.2);
     background-color: rgba(145, 145, 145, 0.3);
 }
+
+@media only screen and (max-width: 768px) {
+
+    .staff-tarjeta {
+        display: block;
+        width: 90%;
+        height: 400px;
+        margin: 10px auto;
+    }
+
+    .staff-front img {
+        width: 40%;
+    }
+
+    .staff-front h3 {
+        font-size: 25px;
+    }
+    
+    .staff-front .rol {
+        font-size: 18px;
+    }
+
+    .staff-back .descripcion {
+        font-size: 20px;
+    }
+
+    .staff-back i {
+        font-size: 20px;
+    } 
+    
+
+}

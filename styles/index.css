@@ -140,3 +140,36 @@
 .faq-item.active .faq-answer {
   display: block;
 }
+
+
+@media only screen and (max-width: 768px) {
+
+    .top-jugadores-tarjeta {
+        display: block;
+        width: 90%;
+        height: 400px;
+        margin: 10px auto;
+    }
+
+    .top-jugadores-front h3 {
+        font-size: 25px;
+    }
+
+    .top-jugadores-back .top-jugadores-descripcion {
+        font-size: 20px;
+    }
+
+    .top-jugadores-back i {
+        font-size: 20px;
+    }
+
+    .faq-question {
+        font-size: 15px;
+    }
+
+    .faq-answer {
+        font-size: 10px;
+    }
+    
+
+}
